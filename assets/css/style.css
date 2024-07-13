@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.w_100 {
+    width: 100%;
+}
+.color_text {
+    color: black;
+}
