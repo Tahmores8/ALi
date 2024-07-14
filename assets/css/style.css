@@ -9,13 +9,30 @@ body {
     height: 55px;
 }
 
+
 .w_100 {
     width: 100%;
 }
+
 .color_text {
     color: black;
 }
 
 .rounded-pill {
     border-radius: 5rem;
+}
+
+@media(min-width:600px) {
+    #top_actions_section {
+        display: flex !important;
+        align-items: center !important;
+    }
+}
+
+.users_lite_item.active .users_list_arrow_icon {
+    transform: rotate(180deg);
+}
+
+.users_lite_item.active , .users_lite_item.active .collapsible-header {
+    background-color: rgba(206 206 206 / 30%);
 }

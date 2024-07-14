@@ -23,8 +23,8 @@
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">User management</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./users.html">User management</a></li>
                 <li><a href="#">Abut me</a></li>
                 <li><a href="#">project</a></li>
             </ul>
@@ -64,9 +64,9 @@
     <!-- contend sevtion_____start____ -->
 
 
-    <section id="top_actions_section">
+    <section id="top_actions_section" class="row m-t-10 m-b-0">
         <!-- add button__________-->
-        <div class="p-l-10 p-r-10 p-t-10">
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m3 l2">
             <button class="waves-effect waves-light btn purple accent-3 p-l-30 p-r-30 w-full rounded_pill flex-c">
                 <i class="material-icons m-r-5">add</i>
                 Add User
@@ -75,21 +75,101 @@
 
         <!-- serch section__________-->
 
-        <div class="row">
+        <div class="row col s12 m9 l8 m-b-0">
             <div class="input-field col s12">
                 <input id="search" type="text" class="validate">
                 <label for="search">
                     <i class="material-icons pos-relative top-7">search</i>
-
                     search
                 </label>
             </div>
         </div>
 
+        <div class="col l2 hide-on-med-and-down"></div>
+
     </section>
 
 
- 
+    <section class="user_ilst_section">
+        <ul class="collapsible hide-on-med-and-up">
+            <li class="users_lite_item">
+                <div class="collapsible-header">
+                    <i class="material-icons purple-text accent-2 users_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
+                    ALi_TS
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">username</span>
+                        <span>Tahmores8</span>
+                    </div>
+                    <div class="p-all-5"> 
+                        <span class="f-bold">Email</span>
+                        <span>alitahmores33412@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address</span>
+                        <span>japan - exampel tokio</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Action :</span>
+                        <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                        <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                    </div>
+                </div>
+            </li>
+            <li class="users_lite_item">
+                <div class="collapsible-header">
+                    <i class="material-icons purple-text accent-2 users_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
+                    Tahmores
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">username</span>
+                        <span>Tahmores8</span>
+                    </div>
+                    <div class="p-all-5"> 
+                        <span class="f-bold">Email</span>
+                        <span>alitahmores33412@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address</span>
+                        <span>japan - exampel tokio</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Action :</span>
+                        <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                        <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                    </div>
+                </div>
+            </li>
+            <li class="users_lite_item">
+                <div class="collapsible-header">
+                    <i class="material-icons purple-text accent-2 users_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
+                    T_Amin_S
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">username</span>
+                        <span>Tahmores8</span>
+                    </div>
+                    <div class="p-all-5"> 
+                        <span class="f-bold">Email</span>
+                        <span>alitahmores33412@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address</span>
+                        <span>japan - exampel tokio</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Action :</span>
+                        <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                        <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
 
 
 
@@ -99,6 +179,7 @@
 
     <script src="./assets/materialize/js/materialize.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/user.js"></script>
 </body>
 
 </html>
